@@ -139,6 +139,7 @@ input:focus {
     font-weight: 600;
     font-size: 20px;
     transition: all 0.9s 0s;
+
 }
 
 .sign:hover {
@@ -166,35 +167,74 @@ input:focus {
 
 .add:hover {
     background-color: #1A213D;
-
 }
 
-/* 
-@media (min-width:768)and(max-width:992) {
-    .nav-list {
-        width: 30%;
-
-        top: 40px;
-        left: 400px;
-        color: #3a0606;
-        font-size: 20px;
-        font-weight: 600;
-    }
-
-    .sec-one {
+@media (max-width:480px) {
+    nav {
         width: 100%;
-        height: 1100px;
+        height: 120px;
         overflow: hidden;
     }
 
-    .sec-three {
-        height: 1160px;
-        overflow: hidden;
+    .grick-img {
+        top: 12%;
+        left: 2%;
     }
 
-} */
+    .search-form {
+        top: -40px;
+        left: 34%;
+        font-size: 20px;
+        width: 75%;
+    }
 
-/* ---------------------------header------------------------------------- */
+    .search {
+        padding-left: 50px;
+        width: 40%;
+        height: 50px;
+    }
+
+    .icon-search {
+        top: 35%;
+        left: 5%;
+        font-size: 20px;
+    }
+
+    .nav-list {
+        width: 90%;
+        top: 70%;
+        left: 5%;
+        font-size: 18px;
+        padding-left: 0;
+    }
+
+    .list::after {
+        font-size: 12px;
+        width: 5%;
+        top: 12%;
+        left: 105%;
+    }
+
+    .sign {
+        width: 11%;
+        top: 25%;
+        left: 66%;
+        font-size: 16px;
+    }
+
+    .add {
+        width: 16%;
+        height: 50px;
+        border-radius: 50px;
+        position: absolute;
+        top: 10%;
+        right: 4%;
+        font-size: 16px;
+        padding-top: 6px;
+    }
+}
+
+/* -----------------------------header------------------------- */
 
 header {
     width: 100%;
@@ -330,6 +370,66 @@ header::after {
     height: 1300px;
     background: rgba(26, 33, 61, 0.8);
     /* opacity: 0.9; */
+}
+
+@media (max-width:480px) {
+    header {
+        height: 800px;
+        overflow: hidden;
+    }
+
+    .div-one-header {
+        top: 20%;
+        left: 2%;
+        line-height: 1.2;
+    }
+
+    .forms {
+        top: 65%;
+        left: 0%;
+        width: 100%;
+        height: 100px;
+    }
+
+    .Question-word {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    .form-apply {
+        margin: 15px 0px 0px 5px;
+        padding-left: 65px;
+        font-size: 10px;
+
+    }
+
+    .submit {
+        right: 12.5%;
+        top: 40%;
+        font-size: 14px;
+    }
+
+    .confirm-sreach {
+
+        top: 15%;
+        right: 1%;
+        width: 15%;
+        height: 70px;
+        font-size: 17px;
+        padding: 22px 0px 0px 15px;
+
+    }
+
+    .ul-header {
+        bottom: 10%;
+        left: 0%;
+        width: 90%;
+    }
+
+    .a-li-header {
+        width: 140%;
+        font-size: 16px;
+    }
 }
 
 /* ------------------------------------------------section 1--------------------------- */
@@ -484,6 +584,36 @@ header::after {
 
 }
 
+@media (max-width:480px) {
+    .sec-one {
+        height: 1980px;
+        overflow: hidden;
+
+    }
+
+    .head2-sec-one {
+        padding-top: 20px;
+        font-size: 34px;
+        line-height: 1.1;
+    }
+
+    .photos {
+        width: 95%;
+        height: 1000px;
+        flex-wrap: wrap;
+        top: 3%;
+        left: 20%;
+    }
+
+    .photo {
+        width: 60%;
+        overflow: hidden;
+    }
+
+}
+
+
+
 
 /* ------------------------------------------------section 2------------------------------- */
 .sec-two {
@@ -571,6 +701,7 @@ header::after {
     height: 400px;
 }
 
+
 .sec-two-photo {
     margin-top: 20px;
     overflow: hidden;
@@ -655,6 +786,94 @@ header::after {
 .explore:hover {
     background: #fff;
     color: #4DB7FE;
+}
+
+@media (max-width:480px) {
+    .sec-two {
+        height: 1400px;
+        overflow: hidden;
+    }
+
+    .title-sec-two {
+        top: 5%;
+    }
+
+    .parent-container {
+        width: 100%;
+        top: 22%;
+        height: 960px;
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .child {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .child3 {
+        position: relative;
+        top: 10%;
+    }
+
+    .sec-two-photo {
+        width: 48%;
+        height: 300px;
+    }
+
+    .Shopping-div {
+        height: 400px;
+        left: 1%;
+    }
+
+    .logo {
+        height: 500px;
+    }
+
+    .head4-sec-two,
+    .down {
+
+        font-size: 18px;
+        padding-left: 10px;
+        top: 89%;
+
+    }
+
+    .Shopping {
+        font-size: 22px;
+        padding-left: 20px;
+        bottom: 29%;
+
+    }
+
+    .under-shopping {
+        font-size: 14px;
+        padding-left: 20px;
+        bottom: 18%;
+        line-height: 1.1;
+    }
+
+    .explore {
+        width: 45%;
+        height: 45px;
+        font-size: 16px;
+        left: 8%;
+        bottom: 4%;
+        padding: 13px 20px;
+    }
+
+    .sec-two-photo::before,
+    .Shopping-div::before {
+        content: "";
+        width: 100%;
+        height: 200px;
+        bottom: 0%;
+    }
+
 }
 
 /* --------------------------section 3------------------------- */
@@ -961,6 +1180,182 @@ header::after {
     background-color: #1A213D;
 }
 
+@media (max-width:480px) {
+    .sec-three {
+        height: 1250px;
+        overflow: hidden;
+    }
+
+    .title-sec-three {
+        height: 180px;
+        top: 5%;
+    }
+
+    .head2-sec-three {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .pa-sec-three {
+        font-size: 16px;
+        line-height: 1.1;
+        padding-top: 24px;
+    }
+
+    .left,
+    .right {
+        font-size: 24px;
+        top: 8%;
+    }
+
+    .left {
+        left: 2%;
+    }
+
+    .right {
+        right: 2%;
+    }
+
+    .rates {
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        top: 18%;
+    }
+
+    .rate {
+        margin-top: 20px;
+        width: 45%;
+    }
+
+    .closed {
+        width: 35%;
+        height: 35px;
+        font-size: 16px;
+        padding: 8px 12px;
+        top: 3%;
+        left: 5%;
+
+    }
+
+    .heart {
+        width: 18%;
+        height: 35px;
+        font-size: 16px;
+        padding-top: 10px;
+        top: 3%;
+        right: 5%;
+    }
+
+    .stars {
+        width: 8%;
+        font-size: 10px;
+        top: 38%;
+        left: 4%;
+
+    }
+
+    .sp-rate {
+        font-size: 11px;
+        top: 37%;
+        left: 31%;
+
+    }
+
+    .h3-rate {
+        font-size: 18px;
+        line-height: 1.0;
+        top: 45%;
+        left: 5%;
+    }
+
+    .verified {
+        font-size: 11px;
+        width: 7%;
+        height: 15px;
+        padding-top: 1.5px;
+        top: 52%;
+        right: 42%;
+    }
+
+    .location {
+        bottom: 36%;
+        left: 6%;
+        font-size: 12px;
+    }
+
+
+    .pa-rate {
+        font-size: 12px;
+        bottom: 28%;
+        left: 12%;
+    }
+
+    .hr-rate {
+        bottom: 27%;
+    }
+
+
+    .restaurant-icon {
+        width: 12%;
+        bottom: 16%;
+        left: 4%;
+    }
+
+    .h3-two-rate {
+        font-size: 12px;
+        line-height: 1.1;
+        bottom: 18.5%;
+        left: 18%;
+    }
+
+    .phone {
+        height: 40px;
+        width: 20%;
+        font-size: 16px;
+        bottom: 2%;
+        right: 30%;
+        padding-top: 4px;
+    }
+
+    .email {
+        height: 40px;
+        width: 20%;
+        font-size: 16px;
+        bottom: 2%;
+        right: 8%;
+        padding-top: 4px;
+    }
+
+    .more {
+        width: 90%;
+        height: 180px;
+        top: 28%;
+        padding: 20px 0px 0px 40px;
+    }
+
+    .do {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .many {
+
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .ex-more {
+        width: 35%;
+        height: 70px;
+        font-size: 20px;
+        top: 57%;
+        right: 30%;
+        padding-top: 22px;
+    }
+}
+
 /* ------------------------------section 4---------------------------- */
 .sec-four {
     width: 100%;
@@ -1020,6 +1415,41 @@ header::after {
     font-size: 20px;
     font-family: "Mulish", sans-serif;
     padding-top: 20px;
+}
+
+@media (max-width:480px) {
+    .sec-four {
+        height: 600px;
+        overflow: hidden;
+    }
+
+    .sec-four-title {
+        padding-top: 80px;
+    }
+
+    .discovers {
+        justify-content: space-between;
+        top: 10%;
+        width: 97%;
+        margin: auto;
+    }
+
+    .discover {
+        width: 20%;
+    }
+
+    .head5-sec-four {
+        font-size: 16px;
+        line-height: 1.1;
+        padding-top: 20px;
+    }
+
+    .pa-discover {
+        line-height: 1.5;
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
 }
 
 /* ------------------------------------last section-------------------- */
@@ -1099,6 +1529,63 @@ header::after {
     line-height: 1.5;
     font-family: "Mulish", sans-serif;
     font-size: 22px;
+}
+
+@media (max-width:480px) {
+    .last-sec {
+        height: 800px;
+        overflow: hidden;
+    }
+
+    .video,
+    .about {
+        width: 48%;
+        padding-top: 120px;
+        padding-left: 20px;
+    }
+
+
+    .video-pic {
+        width: 100%;
+        height: 600px;
+    }
+
+    .h2-about {
+        padding-top: 5px;
+        font-size: 40px;
+    }
+
+    .pa-about {
+        width: 98%;
+        height: 300px;
+        line-height: 1.1;
+        font-size: 22px;
+        padding: 15px 0px 0px 12px;
+        margin-top: 30px;
+    }
+
+    .info {
+        margin-top: 25px;
+    }
+
+    .designer {
+        height: 80px;
+        width: 30%;
+    }
+
+    .name {
+        top: 12%;
+        left: 35%;
+        font-size: 20px;
+    }
+
+    .job {
+        top: 50%;
+        left: 35%;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
 }
 
 /* --------------------------------footer------------------------------ */
@@ -1282,7 +1769,111 @@ footer {
     transition: all 10s 0.2s;
 }
 
-@media (max-width:768px) {
+@media (max-width:480px) {
+    footer {
+        height: 650px;
+        overflow: hidden;
+    }
+
+    .footer-container {
+        width: 92%;
+        height: 480px;
+    }
+
+    .footer-info,
+    .navigation,
+    .services,
+    .subscribe {
+        margin-top: 45px;
+        font-size: 20px;
+
+    }
+
+    .footer-info {
+        width: 18%;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+
+    .seddo {
+        font-size: 16px;
+        line-height: 1.3;
+        padding-top: 10px;
+    }
+
+    .media {
+        width: 70%;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        height: 20px;
+    }
+
+    .social {
+        font-size: 22px;
+    }
+
+    .navigation {
+        width: 8%;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .footer-list {
+        width: 100%;
+        height: 68%;
+        top: 20%;
+        font-size: 14px;
+    }
+
+    .page-info {
+        font-size: 14px;
+    }
+
+    .services {
+        width: 20%;
+        margin-left: 30px;
+    }
+
+    .pa-subscribe {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-top: 50px;
+    }
+
+    .subscribe {
+        width: 20%;
+        margin-left: 20px;
+    }
+
+    .email-input {
+        width: 105px;
+        height: 55px;
+        margin-top: 20px;
+        padding-left: 2px;
+        font-size: 12px;
+    }
+
+    .email-confirm {
+        top: 54%;
+        left: 92px;
+        font-size: 11px;
+    }
+
+    .turn-up {
+        height: 50px;
+        width: 11%;
+        right: 20px;
+        bottom: 20px;
+        font-size: 22px;
+        padding: 1px 0px 0px 2px;
+
+    }
+
+}
+
+@media (min-width:481px) and (max-width:767) {
 
     /* --------------------------nav--------------------- */
     nav {
