@@ -2650,9 +2650,9 @@ footer {
     }
 
     .submit {
-        right: 12.5%;
+        right: 10%;
         top: 40%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .confirm-sreach {
@@ -2661,15 +2661,15 @@ footer {
         right: 1%;
         width: 15%;
         height: 70px;
-        font-size: 17px;
-        padding: 22px 0px 0px 15px;
+        font-size: 14px;
+        padding: 25px 0px 0px 15px;
 
     }
 
     .ul-header {
         bottom: 4%;
-        left: 0%;
-        width: 90%;
+        left: -15px;
+        width: 95%;
     }
 
     .a-li-header {
@@ -2712,6 +2712,28 @@ footer {
         right: 15%;
     }
 
+    .contain-photo::before {
+
+        width: 72%;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .contain-photo::after {
+
+        width: 65%;
+        height: 180px;
+        border-radius: 50%;
+        position: absolute;
+        top: 3%;
+        left: 3%;
+        border-radius: 50%;
+    }
+
+    .hidd-explore {
+        top: 35%;
+        left: 20%;
+    }
 
 
     /* -------------------------------section 2------------------------- */
@@ -2958,7 +2980,7 @@ footer {
 
     .more {
         width: 90%;
-        height: 180px;
+        height: 220px;
         top: 28%;
         padding: 20px 0px 0px 40px;
     }
@@ -2976,11 +2998,11 @@ footer {
 
     .ex-more {
         width: 40%;
-        height: 70px;
+        height: 90px;
         font-size: 20px;
         top: 57%;
         right: 30%;
-        padding-top: 22px;
+        padding-top: 28px;
     }
 
 
@@ -3080,7 +3102,7 @@ footer {
 
     /* -------------------------------------footer----------------------- */
     footer {
-        height: 650px;
+        height: 700px;
         overflow: hidden;
     }
 
