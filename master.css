@@ -2574,7 +2574,7 @@ footer {
     }
 
     .search {
-        padding-left: 45px;
+        padding-left: 40px;
         width: 40%;
         height: 50px;
     }
@@ -2650,7 +2650,7 @@ footer {
     }
 
     .submit {
-        right: 10%;
+        right: 12%;
         top: 40%;
         font-size: 12px;
     }
@@ -2668,7 +2668,7 @@ footer {
 
     .ul-header {
         bottom: 4%;
-        left: -15px;
+        left: -25px;
         width: 100%;
     }
 
@@ -2714,14 +2714,14 @@ footer {
 
     .contain-photo::before {
 
-        width: 72%;
+        width: 74%;
         height: 200px;
         border-radius: 50%;
     }
 
     .contain-photo::after {
 
-        width: 65%;
+        width: 67%;
         height: 180px;
         border-radius: 50%;
         top: 3%;
@@ -3181,6 +3181,7 @@ footer {
         width: 105px;
         height: 55px;
         margin-top: 20px;
+        margin-left: -20px;
         padding-left: 2px;
         font-size: 12px;
     }
