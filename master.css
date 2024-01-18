@@ -111,6 +111,7 @@ input:focus {
     top: 100%;
     visibility: hidden;
     transition: all 0.8s 0.3s;
+    z-index: 2;
 
 
 }
@@ -1911,6 +1912,622 @@ footer {
 
 }
 
+@media (min-width:431px) and (max-width:480px) {
+    /* -----------------------nav------------------ */
+
+    nav {
+        width: 100%;
+        height: 120px;
+        overflow: hidden;
+    }
+
+    .grick-img {
+        top: 12%;
+        left: 2%;
+    }
+
+    .search-form {
+        top: -40px;
+        left: 34%;
+        font-size: 20px;
+        width: 75%;
+    }
+
+    .search {
+        padding-left: 50px;
+        width: 40%;
+        height: 50px;
+    }
+
+    .icon-search {
+        top: 35%;
+        left: 5%;
+        font-size: 20px;
+    }
+
+    .nav-list {
+        width: 90%;
+        top: 70%;
+        left: 5%;
+        font-size: 18px;
+        padding-left: 0;
+    }
+
+    .list::after {
+        font-size: 12px;
+        width: 5%;
+        top: 12%;
+        left: 105%;
+    }
+
+    .sign {
+        width: 11%;
+        top: 25%;
+        left: 66%;
+        font-size: 16px;
+    }
+
+    .add {
+        width: 16%;
+        height: 50px;
+        border-radius: 50px;
+        position: absolute;
+        top: 10%;
+        right: 4%;
+        font-size: 16px;
+        padding-top: 6px;
+    }
+
+    /* -----------------------header------------------------ */
+    header {
+        height: 800px;
+        overflow: hidden;
+    }
+
+    .div-one-header {
+        top: 20%;
+        left: 2%;
+        line-height: 1.2;
+    }
+
+    .forms {
+        top: 65%;
+        left: 0%;
+        width: 100%;
+        height: 100px;
+    }
+
+    .Question-word {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    .form-apply {
+        margin: 15px 0px 0px 5px;
+        padding-left: 65px;
+        font-size: 10px;
+
+    }
+
+    .submit {
+        right: 12.5%;
+        top: 40%;
+        font-size: 14px;
+    }
+
+    .confirm-sreach {
+
+        top: 15%;
+        right: 1%;
+        width: 15%;
+        height: 70px;
+        font-size: 17px;
+        padding: 22px 0px 0px 15px;
+
+    }
+
+    .ul-header {
+        bottom: 10%;
+        left: 0%;
+        width: 90%;
+    }
+
+    .a-li-header {
+        width: 140%;
+        font-size: 16px;
+    }
+
+
+    /* -----------------------section 1 ------------------------ */
+    .sec-one {
+        height: 1980px;
+        overflow: hidden;
+
+    }
+
+    .head2-sec-one {
+        padding-top: 20px;
+        font-size: 34px;
+        line-height: 1.1;
+    }
+
+    .photos {
+        width: 95%;
+        height: 1000px;
+        flex-wrap: wrap;
+        top: 3%;
+        left: 20%;
+    }
+
+    .photo {
+        width: 60%;
+        overflow: hidden;
+    }
+
+
+
+    /* -------------------------------section 2------------------------- */
+    .sec-two {
+        height: 1400px;
+        overflow: hidden;
+    }
+
+    .title-sec-two {
+        top: 5%;
+    }
+
+    .parent-container {
+        width: 100%;
+        top: 22%;
+        height: 960px;
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .child {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .child3 {
+        position: relative;
+        top: 10%;
+    }
+
+    .sec-two-photo {
+        width: 48%;
+        height: 300px;
+    }
+
+    .Shopping-div {
+        height: 400px;
+        left: 1%;
+    }
+
+    .logo {
+        height: 500px;
+    }
+
+    .head4-sec-two,
+    .down {
+
+        font-size: 18px;
+        padding-left: 10px;
+        top: 89%;
+
+    }
+
+    .Shopping {
+        font-size: 22px;
+        padding-left: 20px;
+        bottom: 29%;
+
+    }
+
+    .under-shopping {
+        font-size: 14px;
+        padding-left: 20px;
+        bottom: 18%;
+        line-height: 1.1;
+    }
+
+    .explore {
+        width: 45%;
+        height: 45px;
+        font-size: 16px;
+        left: 8%;
+        bottom: 4%;
+        padding: 13px 20px;
+    }
+
+    .sec-two-photo::before,
+    .Shopping-div::before {
+        content: "";
+        width: 100%;
+        height: 200px;
+        bottom: 0%;
+    }
+
+
+
+    /* -------------------------------section 3------------------------- */
+    .sec-three {
+        height: 1250px;
+        overflow: hidden;
+    }
+
+    .title-sec-three {
+        height: 180px;
+        top: 5%;
+    }
+
+    .head2-sec-three {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .pa-sec-three {
+        font-size: 16px;
+        line-height: 1.1;
+        padding-top: 24px;
+    }
+
+    .left,
+    .right {
+        font-size: 24px;
+        top: 8%;
+    }
+
+    .left {
+        left: 2%;
+    }
+
+    .right {
+        right: 2%;
+    }
+
+    .rates {
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        top: 18%;
+    }
+
+    .rate {
+        margin-top: 20px;
+        width: 45%;
+    }
+
+    .closed {
+        width: 35%;
+        height: 35px;
+        font-size: 16px;
+        padding: 8px 12px;
+        top: 3%;
+        left: 5%;
+
+    }
+
+    .heart {
+        width: 18%;
+        height: 35px;
+        font-size: 16px;
+        padding-top: 10px;
+        top: 3%;
+        right: 5%;
+    }
+
+    .stars {
+        width: 8%;
+        font-size: 10px;
+        top: 38%;
+        left: 4%;
+
+    }
+
+    .sp-rate {
+        font-size: 11px;
+        top: 37%;
+        left: 31%;
+
+    }
+
+    .h3-rate {
+        font-size: 18px;
+        line-height: 1.0;
+        top: 45%;
+        left: 5%;
+    }
+
+    .verified {
+        font-size: 11px;
+        width: 7%;
+        height: 15px;
+        padding-top: 1.5px;
+        top: 52%;
+        right: 42%;
+    }
+
+    .location {
+        bottom: 36%;
+        left: 6%;
+        font-size: 12px;
+    }
+
+
+    .pa-rate {
+        font-size: 12px;
+        bottom: 28%;
+        left: 12%;
+    }
+
+    .hr-rate {
+        bottom: 27%;
+    }
+
+
+    .restaurant-icon {
+        width: 12%;
+        bottom: 16%;
+        left: 4%;
+    }
+
+    .h3-two-rate {
+        font-size: 12px;
+        line-height: 1.1;
+        bottom: 18.5%;
+        left: 18%;
+    }
+
+    .phone {
+        height: 40px;
+        width: 20%;
+        font-size: 16px;
+        bottom: 2%;
+        right: 30%;
+        padding-top: 4px;
+    }
+
+    .email {
+        height: 40px;
+        width: 20%;
+        font-size: 16px;
+        bottom: 2%;
+        right: 8%;
+        padding-top: 4px;
+    }
+
+    .more {
+        width: 90%;
+        height: 180px;
+        top: 28%;
+        padding: 20px 0px 0px 40px;
+    }
+
+    .do {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .many {
+
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .ex-more {
+        width: 35%;
+        height: 70px;
+        font-size: 20px;
+        top: 57%;
+        right: 30%;
+        padding-top: 22px;
+    }
+
+
+
+    /* -------------------------------section 4------------------------- */
+
+    .sec-four {
+        height: 600px;
+        overflow: hidden;
+    }
+
+    .sec-four-title {
+        padding-top: 80px;
+    }
+
+    .discovers {
+        justify-content: space-between;
+        top: 10%;
+        width: 97%;
+        margin: auto;
+    }
+
+    .discover {
+        width: 20%;
+    }
+
+    .head5-sec-four {
+        font-size: 16px;
+        line-height: 1.1;
+        padding-top: 20px;
+    }
+
+    .pa-discover {
+        line-height: 1.5;
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+
+    /* ---------------------------last section-------------------------------- */
+
+    .last-sec {
+        height: 800px;
+        overflow: hidden;
+    }
+
+    .video,
+    .about {
+        width: 48%;
+        padding-top: 120px;
+        padding-left: 20px;
+    }
+
+
+    .video-pic {
+        width: 100%;
+        height: 600px;
+    }
+
+    .h2-about {
+        padding-top: 5px;
+        font-size: 40px;
+    }
+
+    .pa-about {
+        width: 98%;
+        height: 300px;
+        line-height: 1.1;
+        font-size: 22px;
+        padding: 15px 0px 0px 12px;
+        margin-top: 30px;
+    }
+
+    .info {
+        margin-top: 25px;
+    }
+
+    .designer {
+        height: 80px;
+        width: 30%;
+    }
+
+    .name {
+        top: 12%;
+        left: 35%;
+        font-size: 20px;
+    }
+
+    .job {
+        top: 50%;
+        left: 35%;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+
+
+    /* -------------------------------------footer----------------------- */
+    footer {
+        height: 650px;
+        overflow: hidden;
+    }
+
+    .footer-container {
+        width: 92%;
+        height: 480px;
+    }
+
+    .footer-info,
+    .navigation,
+    .services,
+    .subscribe {
+        margin-top: 45px;
+        font-size: 20px;
+
+    }
+
+    .footer-info {
+        width: 18%;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+
+    .seddo {
+        font-size: 16px;
+        line-height: 1.3;
+        padding-top: 10px;
+    }
+
+    .media {
+        width: 70%;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        height: 20px;
+    }
+
+    .social {
+        font-size: 22px;
+    }
+
+    .navigation {
+        width: 8%;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .footer-list {
+        width: 100%;
+        height: 68%;
+        top: 20%;
+        font-size: 14px;
+    }
+
+    .page-info {
+        font-size: 14px;
+    }
+
+    .services {
+        width: 20%;
+        margin-left: 30px;
+    }
+
+    .pa-subscribe {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-top: 50px;
+    }
+
+    .subscribe {
+        width: 20%;
+        margin-left: 20px;
+    }
+
+    .email-input {
+        width: 105px;
+        height: 55px;
+        margin-top: 20px;
+        padding-left: 2px;
+        font-size: 12px;
+    }
+
+    .email-confirm {
+        top: 54%;
+        left: 92px;
+        font-size: 11px;
+    }
+
+    .turn-up {
+        height: 50px;
+        width: 11%;
+        right: 20px;
+        bottom: 20px;
+        font-size: 22px;
+        padding: 1px 0px 0px 2px;
+
+    }
+
+}
+
 @media screen and (min-width:481px) and (max-width:576px) {
     /* -----------------------nav------------------ */
 
@@ -2564,626 +3181,7 @@ footer {
 
 }
 
-
-
-
-@media (min-width:431px) and (max-width:480px) {
-    /* -----------------------nav------------------ */
-
-    nav {
-        width: 100%;
-        height: 120px;
-        overflow: hidden;
-    }
-
-    .grick-img {
-        top: 12%;
-        left: 2%;
-    }
-
-    .search-form {
-        top: -40px;
-        left: 34%;
-        font-size: 20px;
-        width: 75%;
-    }
-
-    .search {
-        padding-left: 50px;
-        width: 40%;
-        height: 50px;
-    }
-
-    .icon-search {
-        top: 35%;
-        left: 5%;
-        font-size: 20px;
-    }
-
-    .nav-list {
-        width: 90%;
-        top: 70%;
-        left: 5%;
-        font-size: 18px;
-        padding-left: 0;
-    }
-
-    .list::after {
-        font-size: 12px;
-        width: 5%;
-        top: 12%;
-        left: 105%;
-    }
-
-    .sign {
-        width: 11%;
-        top: 25%;
-        left: 66%;
-        font-size: 16px;
-    }
-
-    .add {
-        width: 16%;
-        height: 50px;
-        border-radius: 50px;
-        position: absolute;
-        top: 10%;
-        right: 4%;
-        font-size: 16px;
-        padding-top: 6px;
-    }
-
-    /* -----------------------header------------------------ */
-    header {
-        height: 800px;
-        overflow: hidden;
-    }
-
-    .div-one-header {
-        top: 20%;
-        left: 2%;
-        line-height: 1.2;
-    }
-
-    .forms {
-        top: 65%;
-        left: 0%;
-        width: 100%;
-        height: 100px;
-    }
-
-    .Question-word {
-        padding-left: 10px;
-        font-size: 16px;
-    }
-
-    .form-apply {
-        margin: 15px 0px 0px 5px;
-        padding-left: 65px;
-        font-size: 10px;
-
-    }
-
-    .submit {
-        right: 12.5%;
-        top: 40%;
-        font-size: 14px;
-    }
-
-    .confirm-sreach {
-
-        top: 15%;
-        right: 1%;
-        width: 15%;
-        height: 70px;
-        font-size: 17px;
-        padding: 22px 0px 0px 15px;
-
-    }
-
-    .ul-header {
-        bottom: 10%;
-        left: 0%;
-        width: 90%;
-    }
-
-    .a-li-header {
-        width: 140%;
-        font-size: 16px;
-    }
-
-
-    /* -----------------------section 1 ------------------------ */
-    .sec-one {
-        height: 1980px;
-        overflow: hidden;
-
-    }
-
-    .head2-sec-one {
-        padding-top: 20px;
-        font-size: 34px;
-        line-height: 1.1;
-    }
-
-    .photos {
-        width: 95%;
-        height: 1000px;
-        flex-wrap: wrap;
-        top: 3%;
-        left: 20%;
-    }
-
-    .photo {
-        width: 60%;
-        overflow: hidden;
-    }
-
-
-
-    /* -------------------------------section 2------------------------- */
-    .sec-two {
-        height: 1400px;
-        overflow: hidden;
-    }
-
-    .title-sec-two {
-        top: 5%;
-    }
-
-    .parent-container {
-        width: 100%;
-        top: 22%;
-        height: 960px;
-        display: flex;
-        flex-wrap: wrap;
-
-
-    }
-
-    .child {
-        width: 100%;
-        height: 300px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .child3 {
-        position: relative;
-        top: 10%;
-    }
-
-    .sec-two-photo {
-        width: 48%;
-        height: 300px;
-    }
-
-    .Shopping-div {
-        height: 400px;
-        left: 1%;
-    }
-
-    .logo {
-        height: 500px;
-    }
-
-    .head4-sec-two,
-    .down {
-
-        font-size: 18px;
-        padding-left: 10px;
-        top: 89%;
-
-    }
-
-    .Shopping {
-        font-size: 22px;
-        padding-left: 20px;
-        bottom: 29%;
-
-    }
-
-    .under-shopping {
-        font-size: 14px;
-        padding-left: 20px;
-        bottom: 18%;
-        line-height: 1.1;
-    }
-
-    .explore {
-        width: 45%;
-        height: 45px;
-        font-size: 16px;
-        left: 8%;
-        bottom: 4%;
-        padding: 13px 20px;
-    }
-
-    .sec-two-photo::before,
-    .Shopping-div::before {
-        content: "";
-        width: 100%;
-        height: 200px;
-        bottom: 0%;
-    }
-
-
-
-    /* -------------------------------section 3------------------------- */
-    .sec-three {
-        height: 1250px;
-        overflow: hidden;
-    }
-
-    .title-sec-three {
-        height: 180px;
-        top: 5%;
-    }
-
-    .head2-sec-three {
-        font-size: 40px;
-        line-height: 1.2;
-    }
-
-    .pa-sec-three {
-        font-size: 16px;
-        line-height: 1.1;
-        padding-top: 24px;
-    }
-
-    .left,
-    .right {
-        font-size: 24px;
-        top: 8%;
-    }
-
-    .left {
-        left: 2%;
-    }
-
-    .right {
-        right: 2%;
-    }
-
-    .rates {
-        height: 600px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        top: 18%;
-    }
-
-    .rate {
-        margin-top: 20px;
-        width: 45%;
-    }
-
-    .closed {
-        width: 35%;
-        height: 35px;
-        font-size: 16px;
-        padding: 8px 12px;
-        top: 3%;
-        left: 5%;
-
-    }
-
-    .heart {
-        width: 18%;
-        height: 35px;
-        font-size: 16px;
-        padding-top: 10px;
-        top: 3%;
-        right: 5%;
-    }
-
-    .stars {
-        width: 8%;
-        font-size: 10px;
-        top: 38%;
-        left: 4%;
-
-    }
-
-    .sp-rate {
-        font-size: 11px;
-        top: 37%;
-        left: 31%;
-
-    }
-
-    .h3-rate {
-        font-size: 18px;
-        line-height: 1.0;
-        top: 45%;
-        left: 5%;
-    }
-
-    .verified {
-        font-size: 11px;
-        width: 7%;
-        height: 15px;
-        padding-top: 1.5px;
-        top: 52%;
-        right: 42%;
-    }
-
-    .location {
-        bottom: 36%;
-        left: 6%;
-        font-size: 12px;
-    }
-
-
-    .pa-rate {
-        font-size: 12px;
-        bottom: 28%;
-        left: 12%;
-    }
-
-    .hr-rate {
-        bottom: 27%;
-    }
-
-
-    .restaurant-icon {
-        width: 12%;
-        bottom: 16%;
-        left: 4%;
-    }
-
-    .h3-two-rate {
-        font-size: 12px;
-        line-height: 1.1;
-        bottom: 18.5%;
-        left: 18%;
-    }
-
-    .phone {
-        height: 40px;
-        width: 20%;
-        font-size: 16px;
-        bottom: 2%;
-        right: 30%;
-        padding-top: 4px;
-    }
-
-    .email {
-        height: 40px;
-        width: 20%;
-        font-size: 16px;
-        bottom: 2%;
-        right: 8%;
-        padding-top: 4px;
-    }
-
-    .more {
-        width: 90%;
-        height: 180px;
-        top: 28%;
-        padding: 20px 0px 0px 40px;
-    }
-
-    .do {
-        font-size: 24px;
-        line-height: 1.3;
-    }
-
-    .many {
-
-        font-size: 20px;
-        padding-top: 15px;
-    }
-
-    .ex-more {
-        width: 35%;
-        height: 70px;
-        font-size: 20px;
-        top: 57%;
-        right: 30%;
-        padding-top: 22px;
-    }
-
-
-
-    /* -------------------------------section 4------------------------- */
-
-    .sec-four {
-        height: 600px;
-        overflow: hidden;
-    }
-
-    .sec-four-title {
-        padding-top: 80px;
-    }
-
-    .discovers {
-        justify-content: space-between;
-        top: 10%;
-        width: 97%;
-        margin: auto;
-    }
-
-    .discover {
-        width: 20%;
-    }
-
-    .head5-sec-four {
-        font-size: 16px;
-        line-height: 1.1;
-        padding-top: 20px;
-    }
-
-    .pa-discover {
-        line-height: 1.5;
-        font-size: 16px;
-        padding-top: 20px;
-    }
-
-
-    /* ---------------------------last section-------------------------------- */
-
-    .last-sec {
-        height: 800px;
-        overflow: hidden;
-    }
-
-    .video,
-    .about {
-        width: 48%;
-        padding-top: 120px;
-        padding-left: 20px;
-    }
-
-
-    .video-pic {
-        width: 100%;
-        height: 600px;
-    }
-
-    .h2-about {
-        padding-top: 5px;
-        font-size: 40px;
-    }
-
-    .pa-about {
-        width: 98%;
-        height: 300px;
-        line-height: 1.1;
-        font-size: 22px;
-        padding: 15px 0px 0px 12px;
-        margin-top: 30px;
-    }
-
-    .info {
-        margin-top: 25px;
-    }
-
-    .designer {
-        height: 80px;
-        width: 30%;
-    }
-
-    .name {
-        top: 12%;
-        left: 35%;
-        font-size: 20px;
-    }
-
-    .job {
-        top: 50%;
-        left: 35%;
-        line-height: 1.5;
-        font-size: 14px;
-    }
-
-
-
-    /* -------------------------------------footer----------------------- */
-    footer {
-        height: 650px;
-        overflow: hidden;
-    }
-
-    .footer-container {
-        width: 92%;
-        height: 480px;
-    }
-
-    .footer-info,
-    .navigation,
-    .services,
-    .subscribe {
-        margin-top: 45px;
-        font-size: 20px;
-
-    }
-
-    .footer-info {
-        width: 18%;
-    }
-
-    .footer-logo {
-        width: 100%;
-    }
-
-    .seddo {
-        font-size: 16px;
-        line-height: 1.3;
-        padding-top: 10px;
-    }
-
-    .media {
-        width: 70%;
-        margin-top: 20px;
-        flex-wrap: wrap;
-        height: 20px;
-    }
-
-    .social {
-        font-size: 22px;
-    }
-
-    .navigation {
-        width: 8%;
-        margin-left: 10px;
-        font-size: 14px;
-    }
-
-    .footer-list {
-        width: 100%;
-        height: 68%;
-        top: 20%;
-        font-size: 14px;
-    }
-
-    .page-info {
-        font-size: 14px;
-    }
-
-    .services {
-        width: 20%;
-        margin-left: 30px;
-    }
-
-    .pa-subscribe {
-        font-size: 16px;
-        line-height: 1.3;
-        margin-top: 50px;
-    }
-
-    .subscribe {
-        width: 20%;
-        margin-left: 20px;
-    }
-
-    .email-input {
-        width: 105px;
-        height: 55px;
-        margin-top: 20px;
-        padding-left: 2px;
-        font-size: 12px;
-    }
-
-    .email-confirm {
-        top: 54%;
-        left: 92px;
-        font-size: 11px;
-    }
-
-    .turn-up {
-        height: 50px;
-        width: 11%;
-        right: 20px;
-        bottom: 20px;
-        font-size: 22px;
-        padding: 1px 0px 0px 2px;
-
-    }
-
-}
-
-@media (min-width:577px) and (max-width:767) {
+@media (min-width:577px) and (max-width:767px) {
 
     /* --------------------------nav--------------------- */
     nav {
@@ -3568,4 +3566,491 @@ footer {
         padding-top: 0px;
         padding-left: 2px;
     }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+
+    /* --------------------------nav--------------------- */
+    nav {
+        height: 150px;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 72%;
+        left: 0%;
+        width: 95%;
+    }
+
+    .grick-img {
+        top: 12%;
+        left: 10px;
+        margin-left: 10px;
+        width: 20%;
+    }
+
+    .search-form {
+        top: -50px;
+        left: 23%;
+        width: 80%;
+    }
+
+    .search {
+        padding-left: 55px;
+        font-size: 26px;
+    }
+
+    .icon-search {
+        top: 35%;
+        left: 3%;
+        color: #fff;
+    }
+
+
+
+    .sign {
+        top: 25%;
+        width: 20%;
+        left: 70%;
+    }
+
+    .add {
+        width: 20%;
+        top: 14%;
+        left: 78%;
+    }
+
+    .list {
+        position: relative;
+        width: 10%;
+        height: 50px;
+        margin-right: 5px;
+    }
+
+    .list::after {
+        font-size: 14px;
+        width: 10%;
+        height: 10%;
+        top: 14%;
+        left: 80%;
+
+    }
+
+    /* ------------------------------header----------------- */
+    header {
+        width: 100%;
+        height: 1000px;
+        overflow: hidden;
+    }
+
+    .div-one-header {
+        top: 250px;
+        left: 5%;
+
+    }
+
+    .forms {
+        top: 650px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .form-apply {
+        width: 38%;
+        font-size: 14px;
+    }
+
+    .submit {
+        right: 120px;
+        font-size: 18px;
+    }
+
+    .confirm-sreach {
+        right: 20px;
+        width: 14%;
+        font-size: 22px;
+    }
+
+    .ul-header {
+        bottom: 100px;
+        left: 0px;
+        width: 95%;
+    }
+
+    /* --------------------------------------section 1 ----------------------- */
+    .head2-sec-one {
+        padding-top: 30px;
+        overflow: hidden;
+    }
+
+    .sec-one {
+        width: 100%;
+        height: 1100px;
+        overflow: hidden;
+    }
+
+    .photos {
+        width: 100%;
+        flex-wrap: wrap;
+        height: 850px;
+        left: 145px;
+    }
+
+    .photo {
+        width: 50%;
+        position: relative;
+
+    }
+
+    .head3-sec-one {
+        position: relative;
+        left: -30%;
+        padding-top: 10px;
+    }
+
+    .contain-photo::before {
+
+        width: 40%;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .contain-photo::after {
+
+        width: 36%;
+        height: 180px;
+        border-radius: 50%;
+        top: 3%;
+        left: 1.8%;
+        border-radius: 50%;
+    }
+
+    .hidd-explore {
+        top: 32%;
+        left: 11%;
+    }
+
+
+
+    /* -----------------------------------section 2--------------------- */
+    .sec-two {
+        width: 100%;
+        height: 800px;
+        overflow: hidden;
+    }
+
+    .head4-sec-two {
+        top: 76%;
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 15px;
+    }
+
+    .Shopping {
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 15px;
+        bottom: 145px;
+    }
+
+    .under-shopping {
+        font-size: 14px;
+        font-weight: 200;
+        padding-left: 15px;
+        bottom: 80px;
+        line-height: 1.2;
+    }
+
+    .explore {
+        width: 40%;
+        height: 40px;
+        font-size: 16px;
+        left: 15px;
+        bottom: 25px;
+        padding: 10px 15px;
+    }
+
+    /* ----------------------------section 3 ------------------ */
+    .sec-three {
+        height: 1160px;
+        overflow: hidden;
+    }
+
+    .title-sec-three {
+        height: 120px;
+        top: 100px;
+    }
+
+    .rate-photo {
+        width: 100%;
+        height: 225px;
+    }
+
+    .rate::before {
+        height: 100px;
+        bottom: 43.8%;
+    }
+
+
+    .closed {
+        width: 32%;
+        height: 35px;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 8px 10px;
+        border-radius: 25px;
+        top: 20px;
+        left: 12px;
+    }
+
+    .heart {
+        width: 15%;
+        height: 30px;
+        font-size: 16px;
+        top: 20px;
+        right: 12px;
+        padding-top: 7px;
+    }
+
+    .stars {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        font-size: 10px;
+        top: 200px;
+        left: 10px;
+    }
+
+    .sp-rate {
+        width: 60%;
+        font-size: 11px;
+        font-weight: 400;
+        top: 198px;
+        left: 80px;
+    }
+
+    .h3-rate {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        top: 58%;
+        left: 15px;
+    }
+
+    .verified {
+        font-size: 8px;
+        width: 6%;
+        height: 14px;
+        top: 62.8%;
+        left: 46%;
+    }
+
+    .location {
+        font-size: 6px;
+        bottom: 28%;
+        left: 15px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .pa-rate {
+        font-size: 12px;
+        line-height: 1.1;
+        bottom: 25%;
+        left: 31px;
+    }
+
+    .hr-rate {
+        bottom: 95px;
+    }
+
+    .h3-two-rate {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1;
+        bottom: 60px;
+        left: 55px;
+    }
+
+    .restaurant-icon {
+        width: 15%;
+        height: 35px;
+        bottom: 50px;
+        left: 15px;
+    }
+
+    .phone {
+        font-size: 18px;
+        bottom: 12px;
+        width: 18%;
+        height: 40px;
+        right: 80px;
+        padding-top: 4px;
+    }
+
+    .email {
+        font-size: 18px;
+        bottom: 12px;
+        width: 18%;
+        height: 40px;
+        right: 30px;
+        padding-top: 4px;
+    }
+
+    .more {
+        width: 80%;
+        height: 150px;
+        padding: 30px 0px 0px 60px;
+    }
+
+    .ex-more {
+        width: 25%;
+        height: 50px;
+        top: 78px;
+        right: 30px;
+        padding-top: 12px;
+    }
+
+    /* ---------------------last section---------------------- */
+    .last-sec {
+        width: 100%;
+        height: 700px;
+        overflow: hidden;
+    }
+
+    .video-pic {
+        height: 550px;
+    }
+
+    .h2-about {
+        padding-top: 0px;
+        font-size: 40px;
+    }
+
+    .pa-about {
+        width: 95%;
+        height: 300px;
+        line-height: 1.5;
+        font-size: 26px;
+        padding: 15px 0px 0px 15px;
+        margin-top: 20px;
+    }
+
+    .designer {
+        height: 90px;
+        width: 24%;
+    }
+
+
+    .name {
+        top: 13px;
+        left: 110px;
+    }
+
+    .job {
+        top: 45px;
+        left: 111px;
+        font-size: 18px;
+    }
+
+    /* -----------------------------footer------------------------------- */
+    footer {
+        width: 100%;
+        height: 680px;
+        background-color: #1A213D;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .footer-container {
+        width: 92%;
+    }
+
+    .footer-info {
+        width: 24%;
+    }
+
+    .media {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .navigation {
+        width: 12%;
+        margin-left: 0px;
+        overflow: hidden;
+    }
+
+    .subscribe {
+        width: 22%;
+        padding-left: 10px;
+    }
+
+    .footer-copyright {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 2;
+        width: 90%;
+        top: 150px;
+    }
+
+    .email-input {
+        width: 100%;
+        height: 50px;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+
+    .email-confirm {
+        top: 33px;
+        left: 115px;
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .turn-up {
+        height: 50px;
+        width: 5%;
+        right: 40px;
+        bottom: 22px;
+        font-size: 20px;
+        padding-top: 2px;
+        padding-left: 2px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1440px) {
+    /* ----------------nav------------------------ */
+
+    .nav-list {
+        left: 45%;
+    }
+
+    .list {
+        width: 18%;
+    }
+
+    .list::after {
+        left: 100%;
+    }
+
+    .sign {
+        left: 82%;
+    }
+
+    /* ----------------------------section 1----------------------------- */
+    .rate::before {
+        bottom: 53%;
+    }
+
+    .closed {
+        padding: 12px 11px;
+    }
+
+    .verified {
+        padding-top: 3.5px;
+        top: 56%;
+        right: 4%;
+    }
+
 }
