@@ -4039,8 +4039,32 @@ footer {
     }
 
     /* ----------------------------section 1----------------------------- */
+
+    .photos {
+        width: 96%;
+    }
+
+    .contain-photo::after {
+        width: 90%;
+        left: 4%;
+    }
+
+
+    .contain-photo::before {
+        width: 99%;
+    }
+
+    /* --------------------------section 2 ------------------------ */
+    .Shopping {
+        bottom: 37%;
+    }
+
+    /* --------------------------section 3 ------------------------ */
+
     .rate::before {
+
         bottom: 53%;
+
     }
 
     .closed {
@@ -4052,5 +4076,7 @@ footer {
         top: 56%;
         right: 4%;
     }
+
+
 
 }
