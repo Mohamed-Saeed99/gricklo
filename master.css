@@ -9244,7 +9244,7 @@ footer {
     .form-apply {
         margin: 15px 0px 0px 5px;
         padding-left: 65px;
-        font-size: 9px;
+        font-size: 8px;
 
     }
 
@@ -9260,8 +9260,8 @@ footer {
         right: 1%;
         width: 15%;
         height: 70px;
-        font-size: 14px;
-        padding: 25px 0px 0px 18px;
+        font-size: 13px;
+        padding: 25px 0px 0px 15px;
 
     }
 
@@ -9274,7 +9274,7 @@ footer {
     .a-li-header {
         width: 70px;
         margin: 5px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
