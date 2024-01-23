@@ -1264,6 +1264,68 @@ footer {
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+@media (min-width:1440px) and (max-width:1496px) {
+    /* ----------------nav------------------------ */
+
+    .nav-list {
+        left: 45%;
+    }
+
+    .list {
+        width: 18%;
+    }
+
+    .list::after {
+        left: 100%;
+    }
+
+    .sign {
+        left: 82%;
+    }
+
+    /* ----------------------------section 1----------------------------- */
+
+    .photos {
+        width: 96%;
+    }
+
+    .contain-photo::after {
+        width: 86%;
+        left: 4%;
+    }
+
+
+    .contain-photo::before {
+        width: 95%;
+    }
+
+    /* --------------------------section 2 ------------------------ */
+    .Shopping {
+        bottom: 37%;
+    }
+
+    /* --------------------------section 3 ------------------------ */
+
+    .rate::before {
+
+        bottom: 51%;
+
+    }
+
+    .closed {
+        padding: 12px 11px;
+    }
+
+    .verified {
+        padding-top: 3.5px;
+        top: 56%;
+        right: 4%;
+    }
+
+
+
+}
+
 @media (min-width:1394px) and (max-width:1440px) {
     /* ----------------nav------------------------ */
 
@@ -12469,6 +12531,1349 @@ footer {
     .footer-copyright {
         font-size: 16px;
         line-height: 1.6;
+        top: 17%;
+    }
+
+    .turn-up {
+        height: 45px;
+        width: 10%;
+        right: 20px;
+        bottom: 20px;
+        font-size: 22px;
+        padding: 1px 0px 0px 2px;
+
+    }
+}
+
+@media (min-width:350px) and (max-width:360px) {
+
+    /* -----------------------nav------------------ */
+
+    nav {
+        width: 100%;
+        height: 120px;
+        overflow: hidden;
+    }
+
+    .grick-img {
+        top: 20%;
+        left: 3%;
+        width: 22%;
+    }
+
+    .search-form {
+        top: 15%;
+        left: 4.5%;
+        font-size: 10px;
+        width: 75%;
+    }
+
+    .search {
+        padding-left: 32px;
+        width: 40%;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .icon-search {
+        top: 35%;
+        left: 3%;
+        font-size: 14px;
+    }
+
+    .nav-list {
+        width: 100%;
+        top: 70%;
+        left: 0%;
+        font-size: 18px;
+        padding: 0px 8px;
+    }
+
+    .list {
+        width: 16%;
+        margin-right: 5px;
+    }
+
+
+    .list::after {
+        font-size: 12px;
+        width: 5%;
+        top: 12%;
+        left: 110%;
+    }
+
+    .sign {
+        width: 14%;
+        top: 26%;
+        left: 66%;
+        font-size: 14px;
+    }
+
+    .add {
+        width: 16%;
+        height: 30px;
+        top: 20%;
+        right: 3%;
+        font-size: 10px;
+        padding-top: 9px;
+    }
+
+    /* -----------------------header------------------------ */
+    header {
+        height: 900px;
+        overflow: hidden;
+    }
+
+    .div-one-header {
+        top: 18%;
+        left: 0%;
+        line-height: 1.2;
+    }
+
+    .head-header {
+        font-size: 70px;
+    }
+
+    .pa-header {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .forms {
+        top: 66%;
+        left: 0%;
+        width: 100%;
+        height: 100px;
+    }
+
+    .Question-word {
+        padding-left: 10px;
+        padding-top: 1px;
+        font-size: 14px;
+    }
+
+    .form-apply {
+        margin: 15px 0px 0px 5px;
+        padding-left: 60px;
+        font-size: 8px;
+
+    }
+
+    .submit {
+        right: 12%;
+        top: 41%;
+        font-size: 12px;
+    }
+
+    .confirm-sreach {
+
+        top: 15%;
+        right: 1%;
+        width: 15%;
+        height: 70px;
+        font-size: 14px;
+        padding: 25px 0px 0px 15px;
+
+    }
+
+    .ul-header {
+        bottom: 10%;
+        left: -44px;
+        width: 80%;
+    }
+
+    .a-li-header {
+        width: 65px;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+
+    /* -----------------------section 1 ------------------------\ */
+    .sec-one {
+        height: 1700px;
+        overflow: hidden;
+
+    }
+
+    .head2-sec-one {
+        padding-top: 25px;
+        font-size: 30px;
+        line-height: 1.1;
+    }
+
+    .photos {
+        width: 80%;
+        height: 1000px;
+        flex-wrap: wrap;
+        top: 3%;
+        left: 13%;
+    }
+
+    .photo {
+        width: 85%;
+        overflow: hidden;
+    }
+
+    .head3-sec-one {
+        font-size: 24px;
+        padding-top: 8px;
+        position: relative;
+        right: 10%;
+        margin-bottom: 20px;
+    }
+
+    .contain-photo::before {
+        width: 83%;
+        height: 200px;
+    }
+
+    .contain-photo::after {
+        width: 75%;
+        height: 180px;
+        top: 3%;
+        left: 3%;
+    }
+
+    .hidd-explore {
+        top: 34%;
+        left: 22%;
+    }
+
+
+    /* -------------------------------section 2------------------------- */
+    .sec-two {
+        height: 1400px;
+        overflow: hidden;
+    }
+
+    .title-sec-two {
+        top: 5%;
+    }
+
+    .parent-container {
+        width: 100%;
+        top: 22%;
+        height: 960px;
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .child {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .child3 {
+        position: relative;
+        top: 10%;
+    }
+
+    .sec-two-photo {
+        width: 48%;
+        height: 300px;
+    }
+
+    .Shopping-div {
+        height: 400px;
+        left: 1%;
+    }
+
+    .logo {
+        height: 500px;
+    }
+
+    .head4-sec-two,
+    .down {
+
+        font-size: 16px;
+        padding-left: 10px;
+        top: 87%;
+
+    }
+
+    .Shopping {
+        font-size: 18px;
+        padding-left: 10px;
+        bottom: 30%;
+
+    }
+
+    .under-shopping {
+        font-size: 10px;
+        padding-left: 10px;
+        bottom: 16%;
+        line-height: 1.1;
+    }
+
+    .explore {
+        width: 40%;
+        height: 40px;
+        font-size: 14px;
+        left: 6%;
+        bottom: 4%;
+        padding: 13px 10px;
+    }
+
+    .sec-two-photo::before,
+    .Shopping-div::before {
+        content: "";
+        width: 100%;
+        height: 200px;
+        bottom: 0%;
+    }
+
+
+
+    /* -------------------------------section 3------------------------- */
+    .sec-three {
+        height: 1250px;
+        overflow: hidden;
+    }
+
+    .title-sec-three {
+        height: 180px;
+        top: 5%;
+    }
+
+    .head2-sec-three {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    .pa-sec-three {
+        font-size: 14px;
+        line-height: 1.1;
+        padding-top: 24px;
+    }
+
+    .left,
+    .right {
+        font-size: 24px;
+        top: 7%;
+    }
+
+    .left {
+        left: 3%;
+    }
+
+    .right {
+        right: 2%;
+    }
+
+    .rates {
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        top: 18%;
+    }
+
+    .rate {
+        margin-top: 20px;
+        width: 45%;
+    }
+
+    .rate::before {
+        content: "";
+        width: 100%;
+        height: 80px;
+        bottom: 67%;
+    }
+
+    .closed {
+        width: 21%;
+        height: 24px;
+        font-size: 9px;
+        padding: 7px 3px;
+        top: 3%;
+        left: 5%;
+
+    }
+
+    .heart {
+        width: 12%;
+        height: 24px;
+        font-size: 12px;
+        padding-top: 6px;
+        top: 3%;
+        right: 5%;
+    }
+
+    .stars {
+        width: 8%;
+        font-size: 10px;
+        top: 25%;
+        left: 4%;
+    }
+
+    .sp-rate {
+        font-size: 10px;
+        top: 24.5%;
+        left: 41%;
+
+    }
+
+    .h3-rate {
+        font-size: 10px;
+        line-height: 1.0;
+        top: 41%;
+        left: 6%;
+    }
+
+    .verified {
+        font-size: 7px;
+        width: 5%;
+        height: 10px;
+        padding-top: 1.5px;
+        top: 40.5%;
+        right: 3%;
+    }
+
+    .location {
+        bottom: 39%;
+        left: 6%;
+        font-size: 13px;
+    }
+
+
+    .pa-rate {
+        font-size: 10px;
+        bottom: 33%;
+        left: 13%;
+    }
+
+    .hr-rate {
+        bottom: 27%;
+    }
+
+
+    .restaurant-icon {
+        width: 12%;
+        bottom: 16%;
+        left: 4%;
+    }
+
+    .h3-two-rate {
+        font-size: 12px;
+        line-height: 1.1;
+        bottom: 17%;
+        left: 18%;
+    }
+
+    .phone {
+        height: 32px;
+        width: 15%;
+        font-size: 14px;
+        bottom: 2%;
+        right: 27%;
+        padding-top: 0px;
+    }
+
+    .email {
+        height: 32px;
+        width: 15%;
+        font-size: 14px;
+        bottom: 2%;
+        right: 8%;
+        padding-top: 0px;
+    }
+
+    .more {
+        width: 90%;
+        height: 200px;
+        top: 28%;
+        padding: 20px 0px 0px 20px;
+    }
+
+    .do {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .many {
+
+        font-size: 18px;
+        padding-top: 18px;
+    }
+
+    .ex-more {
+        width: 40%;
+        height: 50px;
+        font-size: 18px;
+        top: 57%;
+        right: 30%;
+        padding-top: 12px;
+    }
+
+
+
+    /* -------------------------------section 4------------------------- */
+
+    .sec-four {
+        height: 650px;
+        overflow: hidden;
+    }
+
+    .sec-four-title {
+        padding-top: 80px;
+    }
+
+    .discovers {
+        justify-content: space-between;
+        top: 10%;
+        width: 85%;
+        margin: auto;
+    }
+
+    .discover {
+        width: 20%;
+    }
+
+    .head5-sec-four {
+        font-size: 14px;
+        line-height: 1.1;
+        padding-top: 20px;
+    }
+
+    .pa-discover {
+        line-height: 1.5;
+        font-size: 13px;
+        padding-top: 20px;
+    }
+
+
+    /* ---------------------------last section-------------------------------- */
+
+    .last-sec {
+        height: 800px;
+        overflow: hidden;
+    }
+
+    .video,
+    .about {
+        width: 48%;
+        padding-top: 120px;
+        padding-left: 20px;
+    }
+
+
+    .video-pic {
+        width: 100%;
+        height: 600px;
+    }
+
+    .h2-about {
+        padding-top: 5px;
+        font-size: 40px;
+    }
+
+    .pa-about {
+        width: 98%;
+        height: 280px;
+        line-height: 1.3;
+        font-size: 16px;
+        padding: 9px 0px 0px 12px;
+        margin-top: 30px;
+    }
+
+    .info {
+        margin-top: 25px;
+    }
+
+    .designer {
+        height: 80px;
+        width: 30%;
+    }
+
+    .name {
+        top: 18%;
+        left: 35%;
+        font-size: 16px;
+    }
+
+    .job {
+        top: 50%;
+        left: 35%;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+
+
+
+    /* -------------------------------------footer----------------------- */
+    footer {
+        height: 650px;
+        overflow: hidden;
+    }
+
+    .footer-container {
+        width: 92%;
+        height: 480px;
+    }
+
+    .footer-info,
+    .navigation,
+    .services,
+    .subscribe {
+        margin-top: 45px;
+        font-size: 20px;
+
+    }
+
+    .footer-info {
+        width: 18%;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+
+    .seddo {
+        font-size: 16px;
+        line-height: 1.3;
+        padding-top: 10px;
+    }
+
+    .media {
+        width: 80%;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        height: 50px;
+    }
+
+    .social {
+        font-size: 22px;
+    }
+
+    .navigation {
+        width: 8%;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .footer-list {
+        width: 100%;
+        height: 50%;
+        top: 20%;
+        font-size: 14px;
+    }
+
+    .page-info {
+        font-size: 14px;
+    }
+
+    .services {
+        width: 20%;
+        margin-left: 30px;
+    }
+
+    .pa-subscribe {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-top: 50px;
+    }
+
+    .subscribe {
+        width: 22%;
+        margin-left: 5px;
+        font-size: 16px;
+    }
+
+    .email-input {
+        width: 105px;
+        height: 55px;
+        margin-top: 20px;
+        margin-left: -20px;
+        padding-left: 4px;
+        font-size: 11px;
+    }
+
+    .email-confirm {
+        top: 54%;
+        left: 68px;
+        font-size: 13px;
+    }
+
+    .footer-copyright {
+        font-size: 16px;
+        line-height: 1.6;
+        top: 17%;
+    }
+
+    .turn-up {
+        height: 45px;
+        width: 10%;
+        right: 20px;
+        bottom: 20px;
+        font-size: 22px;
+        padding: 1px 0px 0px 2px;
+
+    }
+}
+
+@media (max-width:350px) {
+
+    /* -----------------------nav------------------ */
+
+    nav {
+        width: 100%;
+        height: 120px;
+        overflow: hidden;
+    }
+
+    .grick-img {
+        top: 20%;
+        left: 3%;
+        width: 22%;
+    }
+
+    .search-form {
+        top: 15%;
+        left: 4.5%;
+        font-size: 10px;
+        width: 75%;
+    }
+
+    .search {
+        padding-left: 32px;
+        width: 40%;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .icon-search {
+        top: 35%;
+        left: 3%;
+        font-size: 14px;
+    }
+
+    .nav-list {
+        width: 100%;
+        top: 70%;
+        left: 0%;
+        font-size: 18px;
+        padding: 0px 8px;
+    }
+
+    .list {
+        width: 20%;
+        margin-right: 1px;
+    }
+
+
+    .list::after {
+        font-size: 12px;
+        width: 5%;
+        top: 12%;
+        left: 95%;
+    }
+
+    .sign {
+        width: 14%;
+        top: 26%;
+        left: 66%;
+        font-size: 14px;
+    }
+
+    .add {
+        width: 16%;
+        height: 30px;
+        top: 20%;
+        right: 3%;
+        font-size: 8px;
+        padding-top: 11px;
+    }
+
+    /* -----------------------header------------------------ */
+    header {
+        height: 900px;
+        overflow: hidden;
+    }
+
+    .div-one-header {
+        top: 18%;
+        left: 0%;
+        line-height: 1.2;
+    }
+
+    .head-header {
+        font-size: 70px;
+    }
+
+    .pa-header {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .forms {
+        top: 66%;
+        left: 0%;
+        width: 100%;
+        height: 100px;
+    }
+
+    .Question-word {
+        padding-left: 10px;
+        padding-top: 1px;
+        font-size: 14px;
+    }
+
+    .form-apply {
+        margin: 15px 0px 0px 5px;
+        padding-left: 60px;
+        font-size: 6px;
+
+    }
+
+    .submit {
+        right: 12.5%;
+        top: 42%;
+        font-size: 10px;
+    }
+
+    .confirm-sreach {
+
+        top: 15%;
+        right: 1%;
+        width: 15%;
+        height: 70px;
+        font-size: 12px;
+        padding: 25px 0px 0px 12px;
+
+    }
+
+    .ul-header {
+        bottom: 10%;
+        left: -35px;
+        width: 80%;
+    }
+
+    .a-li-header {
+        width: 55px;
+        margin: 5px;
+        font-size: 11px;
+        padding-top: 22px;
+    }
+
+
+    /* -----------------------section 1 ------------------------\ */
+    .sec-one {
+        height: 1700px;
+        overflow: hidden;
+
+    }
+
+    .head2-sec-one {
+        padding-top: 25px;
+        font-size: 30px;
+        line-height: 1.1;
+    }
+
+    .photos {
+        width: 80%;
+        height: 1000px;
+        flex-wrap: wrap;
+        top: 3%;
+        left: 10%;
+    }
+
+    .photo {
+        width: 85%;
+        overflow: hidden;
+    }
+
+    .head3-sec-one {
+        font-size: 24px;
+        padding-top: 8px;
+        position: relative;
+        right: 7%;
+        margin-bottom: 20px;
+    }
+
+    .contain-photo::before {
+        width: 87%;
+        height: 200px;
+    }
+
+    .contain-photo::after {
+        width: 78%;
+        height: 180px;
+        top: 3%;
+        left: 4%;
+    }
+
+    .hidd-explore {
+        top: 34%;
+        left: 25%;
+    }
+
+
+    /* -------------------------------section 2------------------------- */
+    .sec-two {
+        height: 1400px;
+        overflow: hidden;
+    }
+
+    .title-sec-two {
+        top: 5%;
+    }
+
+    .parent-container {
+        width: 100%;
+        top: 22%;
+        height: 960px;
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .child {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .child3 {
+        position: relative;
+        top: 10%;
+    }
+
+    .sec-two-photo {
+        width: 48%;
+        height: 300px;
+    }
+
+    .Shopping-div {
+        height: 400px;
+        left: 1%;
+    }
+
+    .logo {
+        height: 500px;
+    }
+
+    .head4-sec-two,
+    .down {
+
+        font-size: 14px;
+        padding-left: 10px;
+        top: 87%;
+
+    }
+
+    .Shopping {
+        font-size: 18px;
+        padding-left: 10px;
+        bottom: 30%;
+
+    }
+
+    .under-shopping {
+        font-size: 10px;
+        padding-left: 10px;
+        bottom: 16%;
+        line-height: 1.1;
+    }
+
+    .explore {
+        width: 40%;
+        height: 40px;
+        font-size: 14px;
+        left: 6%;
+        bottom: 4%;
+        padding: 13px 10px;
+    }
+
+    .sec-two-photo::before,
+    .Shopping-div::before {
+        content: "";
+        width: 100%;
+        height: 200px;
+        bottom: 0%;
+    }
+
+
+
+    /* -------------------------------section 3------------------------- */
+    .sec-three {
+        height: 1250px;
+        overflow: hidden;
+    }
+
+    .title-sec-three {
+        height: 180px;
+        top: 5%;
+    }
+
+    .head2-sec-three {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    .pa-sec-three {
+        font-size: 12px;
+        line-height: 1.1;
+        padding-top: 24px;
+    }
+
+    .left,
+    .right {
+        font-size: 24px;
+        top: 7%;
+    }
+
+    .left {
+        left: 3%;
+    }
+
+    .right {
+        right: 2%;
+    }
+
+    .rates {
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        top: 18%;
+    }
+
+    .rate {
+        margin-top: 20px;
+        width: 45%;
+    }
+
+    .rate::before {
+        content: "";
+        width: 100%;
+        height: 80px;
+        bottom: 67%;
+    }
+
+    .closed {
+        width: 21%;
+        height: 24px;
+        font-size: 9px;
+        padding: 7px 3px;
+        top: 3%;
+        left: 5%;
+
+    }
+
+    .heart {
+        width: 12%;
+        height: 24px;
+        font-size: 12px;
+        padding-top: 6px;
+        top: 3%;
+        right: 5%;
+    }
+
+    .stars {
+        width: 8%;
+        font-size: 10px;
+        top: 25%;
+        left: 4%;
+    }
+
+    .sp-rate {
+        font-size: 8px;
+        top: 24.5%;
+        left: 41%;
+
+    }
+
+    .h3-rate {
+        font-size: 9px;
+        line-height: 1.0;
+        top: 41%;
+        left: 6%;
+    }
+
+    .verified {
+        font-size: 7px;
+        width: 5%;
+        height: 10px;
+        padding-top: 1.5px;
+        top: 40.5%;
+        right: 3%;
+    }
+
+    .location {
+        bottom: 39%;
+        left: 6%;
+        font-size: 13px;
+    }
+
+
+    .pa-rate {
+        font-size: 10px;
+        bottom: 33%;
+        left: 13%;
+    }
+
+    .hr-rate {
+        bottom: 27%;
+    }
+
+
+    .restaurant-icon {
+        width: 12%;
+        bottom: 16%;
+        left: 4%;
+    }
+
+    .h3-two-rate {
+        font-size: 12px;
+        line-height: 1.1;
+        bottom: 17%;
+        left: 18%;
+    }
+
+    .phone {
+        height: 32px;
+        width: 15%;
+        font-size: 14px;
+        bottom: 2%;
+        right: 27%;
+        padding-top: 0px;
+    }
+
+    .email {
+        height: 32px;
+        width: 15%;
+        font-size: 14px;
+        bottom: 2%;
+        right: 8%;
+        padding-top: 0px;
+    }
+
+    .more {
+        width: 90%;
+        height: 200px;
+        top: 28%;
+        padding: 20px 0px 0px 20px;
+    }
+
+    .do {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .many {
+
+        font-size: 18px;
+        padding-top: 18px;
+    }
+
+    .ex-more {
+        width: 40%;
+        height: 50px;
+        font-size: 18px;
+        top: 57%;
+        right: 30%;
+        padding-top: 12px;
+    }
+
+
+
+    /* -------------------------------section 4------------------------- */
+
+    .sec-four {
+        height: 650px;
+        overflow: hidden;
+    }
+
+    .sec-four-title {
+        padding-top: 80px;
+    }
+
+    .discovers {
+        justify-content: space-between;
+        top: 10%;
+        width: 85%;
+        margin: auto;
+    }
+
+    .discover {
+        width: 20%;
+    }
+
+    .head5-sec-four {
+        font-size: 14px;
+        line-height: 1.1;
+        padding-top: 20px;
+    }
+
+    .pa-discover {
+        line-height: 1.4;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+
+    /* ---------------------------last section-------------------------------- */
+
+    .last-sec {
+        height: 800px;
+        overflow: hidden;
+    }
+
+    .video,
+    .about {
+        width: 48%;
+        padding-top: 120px;
+        padding-left: 20px;
+    }
+
+
+    .video-pic {
+        width: 100%;
+        height: 600px;
+    }
+
+    .h2-about {
+        padding-top: 5px;
+        font-size: 40px;
+    }
+
+    .pa-about {
+        width: 98%;
+        height: 280px;
+        line-height: 1.3;
+        font-size: 16px;
+        padding: 9px 0px 0px 12px;
+        margin-top: 30px;
+    }
+
+    .info {
+        margin-top: 25px;
+    }
+
+    .designer {
+        height: 80px;
+        width: 30%;
+    }
+
+    .name {
+        top: 18%;
+        left: 35%;
+        font-size: 16px;
+    }
+
+    .job {
+        top: 50%;
+        left: 35%;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+
+
+
+    /* -------------------------------------footer----------------------- */
+    footer {
+        height: 650px;
+        overflow: hidden;
+    }
+
+    .footer-container {
+        width: 92%;
+        height: 480px;
+    }
+
+    .footer-info,
+    .navigation,
+    .services,
+    .subscribe {
+        margin-top: 45px;
+        font-size: 20px;
+
+    }
+
+    .footer-info {
+        width: 18%;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+
+    .seddo {
+        font-size: 16px;
+        line-height: 1.3;
+        padding-top: 10px;
+    }
+
+    .media {
+        width: 80%;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        height: 50px;
+    }
+
+    .social {
+        font-size: 22px;
+    }
+
+    .navigation {
+        width: 8%;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .footer-list {
+        width: 100%;
+        height: 50%;
+        top: 20%;
+        font-size: 14px;
+    }
+
+    .page-info {
+        font-size: 14px;
+    }
+
+    .services {
+        width: 20%;
+        margin-left: 30px;
+    }
+
+    .pa-subscribe {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-top: 50px;
+    }
+
+    .subscribe {
+        width: 22%;
+        margin-left: 5px;
+        font-size: 16px;
+    }
+
+    .email-input {
+        width: 105px;
+        height: 55px;
+        margin-top: 20px;
+        margin-left: -20px;
+        padding-left: 4px;
+        font-size: 11px;
+    }
+
+    .email-confirm {
+        top: 54%;
+        left: 68px;
+        font-size: 13px;
+    }
+
+    .footer-copyright {
+        font-size: 14px;
+        line-height: 1.5;
         top: 17%;
     }
 
