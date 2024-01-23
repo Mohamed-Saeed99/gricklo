@@ -10534,8 +10534,8 @@ footer {
     .sign {
         width: 14%;
         top: 26%;
-        left: 65%;
-        font-size: 16px;
+        left: 66%;
+        font-size: 14px;
     }
 
     .add {
@@ -10607,12 +10607,12 @@ footer {
 
     .ul-header {
         bottom: 10%;
-        left: -35px;
-        width: 100%;
+        left: -44px;
+        width: 80%;
     }
 
     .a-li-header {
-        width: 63px;
+        width: 67px;
         margin: 5px;
         font-size: 14px;
     }
@@ -11278,12 +11278,12 @@ footer {
 
     .ul-header {
         bottom: 10%;
-        left: -40px;
-        width: 100%;
+        left: -44px;
+        width: 80%;
     }
 
     .a-li-header {
-        width: 63px;
+        width: 65px;
         margin: 5px;
         font-size: 14px;
     }
